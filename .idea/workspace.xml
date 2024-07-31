@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="delete .idea" />
+    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="delete .idea">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-testng.iml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-java-testng.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_01_Enviroment.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_01_Enviroment.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +40,7 @@
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
+  &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2jvRgCBpQN8TBaVeTWcp4BETcRl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -46,14 +52,17 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Person.executor&quot;: &quot;Run&quot;,
     &quot;Application.new_file_to_commit.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.selenium-server-4.23.0.jar.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;TestNG.Topic_01_Enviroment.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tunga/Downloads/automation/software/selenium webdriver/selenium-java-testng/Libraries&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tunga/Downloads/automation/software/selenium webdriver/selenium-java-testng/libraries/testng-7.10.2.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
@@ -63,10 +72,24 @@
       <recent name="webdriver" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tunga\Downloads\automation\software\selenium webdriver\selenium-java-testng\libraries" />
       <recent name="C:\Users\tunga\Downloads\automation\software\selenium webdriver\selenium-java-testng\Libraries" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.Topic_01_Enviroment">
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="webdriver.Person" />
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="new_file_to_commit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="webdriver.new_file_to_commit" />
       <extension name="coverage">
@@ -78,6 +101,10 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="selenium-server-4.23.0.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/libraries/selenium-server-4.23.0.jar" />
+      <method v="2" />
     </configuration>
     <configuration name="Topic_01_Enviroment" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
@@ -99,6 +126,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Topic_01_Enviroment" />
+        <item itemvalue="Application.Person" />
+        <item itemvalue="JAR Application.selenium-server-4.23.0.jar" />
         <item itemvalue="Application.new_file_to_commit" />
       </list>
     </recent_temporary>
