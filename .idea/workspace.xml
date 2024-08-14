@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="push_topic_02">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_00_Template.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_02_Selenium_Locator.java" afterDir="false" />
+    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="push_topic_00_template">
+      <change afterPath="$PROJECT_DIR$/browserDrivers/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-api-4.23.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-firefox-driver-4.23.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/selenium-support-4.23.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_01_Data_Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/libraries.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/selenium_server_4_23_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/selenium_server_4_23_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/selenium_server_4_23_0__2_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/testng_7_10_2__2_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-java-testng.iml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-java-testng.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_00_Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_00_Template.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_01_Enviroment.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_01_Enviroment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_02_new.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_02_Selenium_Locator.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_02_Selenium_Locator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,25 +59,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Person.executor&quot;: &quot;Run&quot;,
-    &quot;Application.new_file_to_commit.executor&quot;: &quot;Run&quot;,
-    &quot;JAR Application.selenium-server-4.23.0.jar.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.Topic_01_Enviroment.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tunga/Downloads/automation/software/selenium webdriver/selenium-java-testng/libraries/testng-7.10.2.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Person.executor": "Run",
+    "Application.new_file_to_commit.executor": "Run",
+    "JAR Application.selenium-server-4.23.0.jar.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Topic_00_Template (1).executor": "Run",
+    "TestNG.Topic_00_Template.executor": "Run",
+    "TestNG.Topic_01_Enviroment.executor": "Run",
+    "TestNG.Topic_02_Selenium_Locator (1).executor": "Run",
+    "TestNG.Topic_02_Selenium_Locator.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.preview.features.used": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/tunga/Downloads/automation/software/selenium webdriver/selenium-java-testng/libraries/selenium-firefox-driver-4.23.0-sources.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.25632185",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="webdriver" />
@@ -78,9 +93,8 @@
       <recent name="C:\Users\tunga\Downloads\automation\software\selenium webdriver\selenium-java-testng\Libraries" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_01_Enviroment">
-    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="webdriver.Person" />
+  <component name="RunManager" selected="TestNG.Topic_02_Selenium_Locator">
+    <configuration name="Topic_00_Template (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -88,31 +102,37 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_00_Template" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="new_file_to_commit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="webdriver.new_file_to_commit" />
+    <configuration name="Topic_00_Template" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="webdriver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_00_Template" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="selenium-server-4.23.0.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/libraries/selenium-server-4.23.0.jar" />
-      <method v="2" />
     </configuration>
     <configuration name="Topic_01_Enviroment" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.*" />
+          <option name="PATTERN" value="webdriver.Topic_02_Selenium_Locator" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +145,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_02_Selenium_Locator (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_02_Selenium_Locator" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_02_Selenium_Locator" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.Topic_02_Selenium_Locator" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_02_Selenium_Locator" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_02_Selenium_Locator" />
         <item itemvalue="TestNG.Topic_01_Enviroment" />
-        <item itemvalue="Application.Person" />
-        <item itemvalue="JAR Application.selenium-server-4.23.0.jar" />
-        <item itemvalue="Application.new_file_to_commit" />
+        <item itemvalue="TestNG.Topic_02_Selenium_Locator (1)" />
+        <item itemvalue="TestNG.Topic_00_Template" />
+        <item itemvalue="TestNG.Topic_00_Template (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -146,10 +201,12 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="delete .idea" />
     <MESSAGE value=".idea" />
     <MESSAGE value="push_topic_02" />
-    <option name="LAST_COMMIT_MESSAGE" value="push_topic_02" />
+    <MESSAGE value="push_topic_00_template" />
+    <option name="LAST_COMMIT_MESSAGE" value="push_topic_00_template" />
   </component>
 </project>

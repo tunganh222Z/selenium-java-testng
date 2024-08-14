@@ -9,7 +9,18 @@ import org.testng.annotations.Test;
 
 
 /*
-tung anh
+8 loaij locator
+id, class, name : trung attribute voi html
+linktext / partial link text : HTML link ( the a )
+tagname : HTML tagname
+selenium version 4
+    Class - Relative Locator
+        above/bellow/near/leftof/rightof
+       UI Testing
+       FUI : Functional UI
+       GUI : Graphic UI
+        font/ size / color / position /
+Css/XPath
  */
 public class Topic_01_Enviroment {
     WebDriver driver;
