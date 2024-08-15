@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="push_topic_00_template">
-      <change afterPath="$PROJECT_DIR$/browserDrivers/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/selenium-api-4.23.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/selenium-firefox-driver-4.23.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/selenium-support-4.23.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_01_Data_Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/libraries.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/selenium_server_4_23_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/selenium_server_4_23_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/selenium_server_4_23_0__2_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/testng_7_10_2__2_.xml" beforeDir="false" />
+    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_11_seleniumLocator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-java-testng.iml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-java-testng.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_00_Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_00_Template.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_01_Enviroment.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_01_Enviroment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_02_Selenium_Locator.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_02_Selenium_Locator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,9 +58,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.Topic_00_Template (1).executor": "Run",
+    "TestNG.Topic_00_Template (2).executor": "Run",
     "TestNG.Topic_00_Template.executor": "Run",
     "TestNG.Topic_01_Enviroment.executor": "Run",
     "TestNG.Topic_02_Selenium_Locator (1).executor": "Run",
+    "TestNG.Topic_02_Selenium_Locator (2).executor": "Run",
+    "TestNG.Topic_02_Selenium_Locator.TC_00_Password.executor": "Run",
+    "TestNG.Topic_02_Selenium_Locator.TC_06_Partial.executor": "Run",
+    "TestNG.Topic_02_Selenium_Locator.TC_07_Css.executor": "Run",
+    "TestNG.Topic_02_Selenium_Locator.TC_08_XPath.executor": "Run",
     "TestNG.Topic_02_Selenium_Locator.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.preview.features.used": "true",
@@ -94,74 +89,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.Topic_02_Selenium_Locator">
-    <configuration name="Topic_00_Template (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_00_Template" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_00_Template" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_00_Template" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_01_Enviroment" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.Topic_02_Selenium_Locator" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_01_Enviroment" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_02_Selenium_Locator (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_02_Selenium_Locator" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Topic_02_Selenium_Locator" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -179,13 +106,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_02_Selenium_Locator.TC_00_Password" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_02_Selenium_Locator" />
+      <option name="METHOD_NAME" value="TC_00_Password" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_02_Selenium_Locator.TC_06_Partial" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_02_Selenium_Locator" />
+      <option name="METHOD_NAME" value="TC_06_Partial" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_02_Selenium_Locator.TC_07_Css" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_02_Selenium_Locator" />
+      <option name="METHOD_NAME" value="TC_07_Css" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_02_Selenium_Locator.TC_08_XPath" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_02_Selenium_Locator" />
+      <option name="METHOD_NAME" value="TC_08_XPath" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Topic_02_Selenium_Locator" />
-        <item itemvalue="TestNG.Topic_01_Enviroment" />
-        <item itemvalue="TestNG.Topic_02_Selenium_Locator (1)" />
-        <item itemvalue="TestNG.Topic_00_Template" />
-        <item itemvalue="TestNG.Topic_00_Template (1)" />
+        <item itemvalue="TestNG.Topic_02_Selenium_Locator.TC_00_Password" />
+        <item itemvalue="TestNG.Topic_02_Selenium_Locator.TC_08_XPath" />
+        <item itemvalue="TestNG.Topic_02_Selenium_Locator.TC_07_Css" />
+        <item itemvalue="TestNG.Topic_02_Selenium_Locator.TC_06_Partial" />
       </list>
     </recent_temporary>
   </component>
@@ -207,6 +206,7 @@
     <MESSAGE value=".idea" />
     <MESSAGE value="push_topic_02" />
     <MESSAGE value="push_topic_00_template" />
-    <option name="LAST_COMMIT_MESSAGE" value="push_topic_00_template" />
+    <MESSAGE value="Topic_11_seleniumLocator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_11_seleniumLocator" />
   </component>
 </project>

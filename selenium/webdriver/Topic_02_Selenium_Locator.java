@@ -1,12 +1,15 @@
 package webdriver;
 
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import org.w3c.dom.html.HTMLInputElement;
+
 import java.util.concurrent.TimeUnit;
 
 public class Topic_02_Selenium_Locator {
@@ -17,22 +20,17 @@ public class Topic_02_Selenium_Locator {
 
     @BeforeClass
     public void beforeClass() {
-        if (osName.contains("Windows")) {
-            System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDrivers\\geckodriver.exe");
-        } else {
-            System.setProperty("webdriver.gecko.driver", projectPath + "/browserDrivers/geckodriver");
-        }
 
 
         driver = new
 
-                FirefoxDriver();
+                ChromeDriver();
         driver.manage().
 
                 timeouts().
 
                 implicitlyWait(30, TimeUnit.SECONDS);
-        driver.get("");
+        driver.get("https://testfoxifygen2.myshopify.com/products/the-archived-snowboard");
     }
 
     // TestNG order testcase theo alphabet ( 0 - 9 A-Z )
@@ -42,15 +40,23 @@ public class Topic_02_Selenium_Locator {
     HTML Element : <tagname attribute_name1='attribute_value' attribute_name2='attribute_value' attribute_name3='attribute_value'>
     data-val, data-val-required, id, name la attribute
      */
+    @Test
+    public void TC_00_Password(){
+        driver.findElement(By.xpath("//input[@id='password']")).sendKeys("1");
+        driver.findElement(By.xpath("//button[@type='submit']")).click();
 
+    }
     @Test
     public void TC_01_Id(){
-       // driver.findElement(By.)
+       driver.findElement(By.id("NewsletterForm--sections--15975324778557__footer")).sendKeys("Tunganh");
+       // by la mot class. tim element co id la FirstName
+        System.out.println(driver.findElement(By.id("NewsletterForm--sections--15975324778557__footer")));
+
     }
 
     @Test
     public void TC_02_Class(){
-
+        driver.findElement(By.className("announcement-bar"));
     }
     @Test
     public void TC_03_Name(){
@@ -64,26 +70,41 @@ public class Topic_02_Selenium_Locator {
 
     @Test
     public void TC_05_Link(){
-
+        driver.findElement(By.linkText("Powered by Shopify"));
     }
 
     @Test
     public void TC_06_Partial(){
-
+        driver.findElement(By.partialLinkText("by Shopify"));
     }
 
     @Test
     public void TC_07_Css(){
-
+        //css vs Id
+        driver.findElement(By.cssSelector("input[id='NewsletterForm--sections--15975324778557__footer']"));
+        driver.findElement(By.cssSelector("input#NewsletterForm--sections--15975324778557__footer"));
+        //css vs class
+        driver.findElement(By.cssSelector("div[class='announcement-bar']"));
+        driver.findElement(By.cssSelector("div.announcement-bar"));
+        driver.findElement(By.cssSelector(".announcement-bar"));
+        // css vs link
+        driver.findElement(By.cssSelector("a[href='/']"));
     }
 
     @Test
     public void TC_08_XPath(){
-
+        // xpath vs id
+        driver.findElement(By.xpath("//input[@id='NewsletterForm--sections--15975324778557__footer']"));
+        // xpath vs class
+        driver.findElement(By.xpath("//div[@class='announcement-bar']"));
+        // xpath vs link
+        driver.findElement(By.xpath("//a[text()='testfoxifygen2']"));
+        driver.findElement(By.xpath("//a[contains(text(),'testfoxifygen2')]"));
     }
 
     @AfterClass
     public void afterClass(){
-        driver.quit();
+
+        //driver.quit();
     }
 }
