@@ -41,10 +41,10 @@ public class Topic_02_Selenium_Locator {
     data-val, data-val-required, id, name la attribute
      */
     @Test
-    public void TC_00_Password(){
+    public void TC_00_Password_AgeVerify(){
         driver.findElement(By.xpath("//input[@id='password']")).sendKeys("1");
         driver.findElement(By.xpath("//button[@type='submit']")).click();
-
+        driver.findElement(By.xpath("//button[@class='x-btn x-button x-gs-primary-button x-age-verifier__confirm']")).click();
     }
     @Test
     public void TC_01_Id(){
