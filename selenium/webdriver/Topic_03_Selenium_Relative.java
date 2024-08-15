@@ -41,7 +41,6 @@ public class Topic_03_Selenium_Relative {
         driver.findElement(By.xpath("//button[@type='submit']")).click();
         driver.findElement(By.xpath("//button[@class='x-btn x-button x-gs-primary-button x-age-verifier__confirm']")).click();
         driver.get("https://testfoxifygen2.myshopify.com/pages/test4411");
-
     }
 
     @Test
