@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_11_seleniumLocator">
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_02_And_Or.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_04_FindElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_03_Selenium_Relative.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_03_Selenium_Relative.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +53,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Person.executor": "Run",
+    "Application.Topic_02_And_Or.executor": "Run",
     "Application.new_file_to_commit.executor": "Run",
     "JAR Application.selenium-server-4.23.0.jar.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -69,6 +71,10 @@
     "TestNG.Topic_02_Selenium_Locator.executor": "Run",
     "TestNG.Topic_03_Selenium_Relative.TC_01_Password_ageVerify.executor": "Run",
     "TestNG.Topic_03_Selenium_Relative.executor": "Run",
+    "TestNG.Topic_04_FindElement.TC_01_Text_isDisplayed_getText (1).executor": "Debug",
+    "TestNG.Topic_04_FindElement.TC_01_Text_isDisplayed_getText.executor": "Run",
+    "TestNG.Topic_04_FindElement.TC_02_concatMethod.executor": "Run",
+    "TestNG.Topic_04_FindElement.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.preview.features.used": "true",
     "ignore.virus.scanning.warn.message": "true",
@@ -92,56 +98,16 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_03_Selenium_Relative">
-    <configuration name="Topic_02_Selenium_Locator" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Topic_02_And_Or">
+    <configuration name="Topic_02_And_Or" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_02_And_Or" />
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.Topic_02_Selenium_Locator" />
+          <option name="PATTERN" value="javaTester.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_02_Selenium_Locator" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_02_Selenium_Locator.TC_00_Password" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_02_Selenium_Locator" />
-      <option name="METHOD_NAME" value="TC_00_Password" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_02_Selenium_Locator.TC_08_XPath" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_02_Selenium_Locator" />
-      <option name="METHOD_NAME" value="TC_08_XPath" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_03_Selenium_Relative.TC_01_Password_ageVerify" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_04_FindElement" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -172,8 +138,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_03_Selenium_Relative" />
-      <option name="METHOD_NAME" value="TC_01_Password_ageVerify" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_04_FindElement" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_04_FindElement.TC_01_Text_isDisplayed_getText" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_04_FindElement" />
+      <option name="METHOD_NAME" value="TC_01_Text_isDisplayed_getText" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_04_FindElement.TC_02_concatMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_04_FindElement" />
+      <option name="METHOD_NAME" value="TC_02_concatMethod" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -183,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Topic_02_And_Or" />
+        <item itemvalue="TestNG.Topic_04_FindElement.TC_02_concatMethod" />
+        <item itemvalue="TestNG.Topic_04_FindElement" />
+        <item itemvalue="TestNG.Topic_04_FindElement.TC_01_Text_isDisplayed_getText" />
         <item itemvalue="TestNG.Topic_03_Selenium_Relative" />
-        <item itemvalue="TestNG.Topic_03_Selenium_Relative.TC_01_Password_ageVerify" />
-        <item itemvalue="TestNG.Topic_02_Selenium_Locator" />
-        <item itemvalue="TestNG.Topic_02_Selenium_Locator.TC_00_Password" />
-        <item itemvalue="TestNG.Topic_02_Selenium_Locator.TC_08_XPath" />
       </list>
     </recent_temporary>
   </component>
