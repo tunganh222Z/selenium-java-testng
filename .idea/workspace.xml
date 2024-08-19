@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_11_seleniumLocator">
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_02_And_Or.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_04_FindElement.java" afterDir="false" />
+    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_15_Login_Guru99_v4">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_06_Register.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +74,8 @@
     "TestNG.Topic_04_FindElement.TC_01_Text_isDisplayed_getText.executor": "Run",
     "TestNG.Topic_04_FindElement.TC_02_concatMethod.executor": "Run",
     "TestNG.Topic_04_FindElement.executor": "Run",
+    "TestNG.Topic_06_Register.TC_01_Click_VisitHere.executor": "Run",
+    "TestNG.Topic_06_Register.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.preview.features.used": "true",
     "ignore.virus.scanning.warn.message": "true",
@@ -98,7 +99,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Topic_02_And_Or">
+  <component name="RunManager" selected="TestNG.Topic_06_Register">
     <configuration name="Topic_02_And_Or" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaTester.Topic_02_And_Or" />
       <module name="selenium-java-testng" />
@@ -108,23 +109,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_03_Selenium_Relative" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_03_Selenium_Relative" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,24 +124,6 @@
       <option name="PACKAGE_NAME" value="webdriver" />
       <option name="MAIN_CLASS_NAME" value="webdriver.Topic_04_FindElement" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_04_FindElement.TC_01_Text_isDisplayed_getText" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_04_FindElement" />
-      <option name="METHOD_NAME" value="TC_01_Text_isDisplayed_getText" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -182,13 +148,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_06_Register" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_06_Register" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_06_Register.TC_01_Click_VisitHere" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_06_Register" />
+      <option name="METHOD_NAME" value="TC_01_Click_VisitHere" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_06_Register" />
+        <item itemvalue="TestNG.Topic_06_Register.TC_01_Click_VisitHere" />
         <item itemvalue="Application.Topic_02_And_Or" />
         <item itemvalue="TestNG.Topic_04_FindElement.TC_02_concatMethod" />
         <item itemvalue="TestNG.Topic_04_FindElement" />
-        <item itemvalue="TestNG.Topic_04_FindElement.TC_01_Text_isDisplayed_getText" />
-        <item itemvalue="TestNG.Topic_03_Selenium_Relative" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +212,8 @@
     <MESSAGE value="push_topic_02" />
     <MESSAGE value="push_topic_00_template" />
     <MESSAGE value="Topic_11_seleniumLocator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_11_seleniumLocator" />
+    <MESSAGE value="Topic_14_Text_Concat_AndOr" />
+    <MESSAGE value="Topic_15_Login_Guru99_v4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_15_Login_Guru99_v4" />
   </component>
 </project>
