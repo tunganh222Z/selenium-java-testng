@@ -1,11 +1,9 @@
 package webdriver;
 
 
-import graphql.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -14,7 +12,7 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
-public class Topic_06_Register {
+public class Topic_05_Register_Guru99v4 {
 
     WebDriver driver;
     String projectPath = System.getProperty("user.dir");
@@ -105,7 +103,6 @@ public class Topic_06_Register {
                 .click();
 
     }
-
     @AfterClass
     public void afterClass(){
 
