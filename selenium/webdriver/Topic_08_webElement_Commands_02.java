@@ -1,4 +1,5 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -148,6 +149,9 @@ public class Topic_08_webElement_Commands_02 {
         WebElement inputPassword = driver.findElement(By.xpath("//input[@id='new_password']"));
 
         inputEmail.sendKeys("tunganh97tuaf@gmail.com");
+        inputEmail.sendKeys(Keys.TAB);
+        System.out.println(userName.getAttribute("value"));
+
 
         inputPassword.sendKeys("1");
         if (driver.findElement(By.xpath("//li [@class='number-char completed']")).isDisplayed()) {
@@ -155,6 +159,8 @@ public class Topic_08_webElement_Commands_02 {
         } else {
             System.out.println("Not verified ");
         }
+
+
 
         inputPassword.clear();
         inputPassword.sendKeys("A");
