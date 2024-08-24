@@ -9,11 +9,10 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import java.net.URL;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
-public class Topic_07_WebBrowser_Commands {
+public class Topic_07_WebBrowser_Commands_01 {
 
     WebDriver driver;
     String projectPath = System.getProperty("user.dir");
@@ -125,6 +124,7 @@ public class Topic_07_WebBrowser_Commands {
         driver.switchTo().defaultContent();
         // tu frame trong di ra frame ngoai chua no
         driver.switchTo().parentFrame();
+
 
 
 
