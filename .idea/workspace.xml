@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_22_WebBrowser_WebElement_exercise">
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_06_Random.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_09_Texbox_TextArea_LiveTechPanda.java" afterDir="false" />
+    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_23_TC01_TextBox_TextArea">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_10_Default_Dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_11_CustomDropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_11_TC02_Handle_Textbox_TextArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_12_Handle_Button.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_08_webElement_Commands_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_08_webElement_Commands_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_09_Texbox_TextArea_LiveTechPanda.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_09_Texbox_TextArea_LiveTechPanda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +93,14 @@
     "TestNG.Topic_09_Login_LiveTechPanda.TC_01_loginWithValidateEmail.executor": "Run",
     "TestNG.Topic_09_Login_LiveTechPanda.executor": "Run",
     "TestNG.Topic_09_Texbox_TextArea_LiveTechPanda.TC_05_Login_Success.executor": "Run",
+    "TestNG.Topic_10_Default_Dropdown.TC_01_Register.executor": "Run",
+    "TestNG.Topic_11_CustomDropdown.TC_01_.executor": "Run",
+    "TestNG.Topic_11_CustomDropdown.TC_02_React_Custom_Dropdown.executor": "Run",
+    "TestNG.Topic_11_CustomDropdown.TC_03_VueJS_Custom_Dropdown.executor": "Run",
+    "TestNG.Topic_11_CustomDropdown.TC_04_Editable_Dropdown.executor": "Run",
+    "TestNG.Topic_11_TC02_Handle_Textbox_TextArea.executor": "Run",
+    "TestNG.Topic_12_Handle_Button.TC_01_.executor": "Run",
+    "TestNG.Topic_12_Handle_Button.TC_02_.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.preview.features.used": "true",
     "ignore.virus.scanning.warn.message": "true",
@@ -115,23 +125,18 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_09_Texbox_TextArea_LiveTechPanda.TC_05_Login_Success">
-    <configuration name="Topic_08_webElement_Commands_02" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Topic_12_Handle_Button.TC_02_">
+    <configuration name="Topic_11_CustomDropdown.TC_03_VueJS_Custom_Dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Topic_08_webElement_Commands_02" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_08_webElement_Commands_02.TC_04_registerFunctionAt_MailChimp" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Topic_08_webElement_Commands_02" />
-      <option name="METHOD_NAME" value="TC_04_registerFunctionAt_MailChimp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_11_CustomDropdown" />
+      <option name="METHOD_NAME" value="TC_03_VueJS_Custom_Dropdown" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,7 +144,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_09_Texbox_TextArea_LiveTechPanda" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_11_CustomDropdown.TC_04_Editable_Dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -148,25 +153,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_09_Texbox_TextArea_LiveTechPanda" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_09_Texbox_TextArea_LiveTechPanda.TC_01_loginWithValidateEmail" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_09_Texbox_TextArea_LiveTechPanda" />
-      <option name="METHOD_NAME" value="TC_01_loginWithValidateEmail" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_11_CustomDropdown" />
+      <option name="METHOD_NAME" value="TC_04_Editable_Dropdown" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -174,7 +162,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_09_Texbox_TextArea_LiveTechPanda.TC_05_Login_Success" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_11_TC02_Handle_Textbox_TextArea" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -183,8 +171,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_09_Texbox_TextArea_LiveTechPanda" />
-      <option name="METHOD_NAME" value="TC_05_Login_Success" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_11_TC02_Handle_Textbox_TextArea" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_12_Handle_Button.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_12_Handle_Button" />
+      <option name="METHOD_NAME" value="TC_01_" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_12_Handle_Button.TC_02_" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_12_Handle_Button" />
+      <option name="METHOD_NAME" value="TC_02_" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -194,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Topic_09_Texbox_TextArea_LiveTechPanda.TC_05_Login_Success" />
-        <item itemvalue="TestNG.Topic_08_webElement_Commands_02.TC_04_registerFunctionAt_MailChimp" />
-        <item itemvalue="TestNG.Topic_09_Texbox_TextArea_LiveTechPanda" />
-        <item itemvalue="TestNG.Topic_09_Texbox_TextArea_LiveTechPanda.TC_01_loginWithValidateEmail" />
-        <item itemvalue="TestNG.Topic_08_webElement_Commands_02" />
+        <item itemvalue="TestNG.Topic_12_Handle_Button.TC_02_" />
+        <item itemvalue="TestNG.Topic_12_Handle_Button.TC_01_" />
+        <item itemvalue="TestNG.Topic_11_TC02_Handle_Textbox_TextArea" />
+        <item itemvalue="TestNG.Topic_11_CustomDropdown.TC_04_Editable_Dropdown" />
+        <item itemvalue="TestNG.Topic_11_CustomDropdown.TC_03_VueJS_Custom_Dropdown" />
       </list>
     </recent_temporary>
   </component>
@@ -226,6 +249,7 @@
     <MESSAGE value="Topic_17_Xpath_Exercise_XpathAndCSS" />
     <MESSAGE value="Topic_17_WebDriver_Topic21_22" />
     <MESSAGE value="Topic_22_WebBrowser_WebElement_exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_22_WebBrowser_WebElement_exercise" />
+    <MESSAGE value="Topic_23_TC01_TextBox_TextArea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_23_TC01_TextBox_TextArea" />
   </component>
 </project>

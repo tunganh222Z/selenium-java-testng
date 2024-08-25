@@ -199,9 +199,27 @@ public class Topic_09_Texbox_TextArea_LiveTechPanda {
         } else {
             System.out.println("Log out fail");
         }
+
+        String loggedOut = driver.findElement(By.xpath("//div [@class='page-title']//h1[contains(text(),'You are now logged out')]")).getText();
+        String expectedLoggedout = "YOU ARE NOW LOGGED OUT" ;
+        if (loggedOut == expectedLoggedout ){
+            System.out.println("Logged out page waiting for directing to Home page");
+        }
+
         sleepInSecond(6);
 
         Assert.assertEquals(driver.getTitle(), "Home page");
+
+        driver.findElement(By.xpath("//div[@class='footer-container']//a[@title='My Account']")).click();
+        sleepInSecond(2);
+
+        driver.findElement(By.xpath("//input[@id='email']")).sendKeys(emailAddress);
+        driver.findElement(By.xpath("//input[@id='pass']")).sendKeys(password);
+        driver.findElement(By.xpath("//button[@title='Login']")).click();
+        sleepInSecond(2);
+
+        Assert.assertEquals(driver.getTitle(),  "My Account");
+
 
     }
 
