@@ -1,6 +1,7 @@
 package webdriver;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -53,7 +54,9 @@ public class Topic_11_TC02_Handle_Textbox_TextArea {
         System.out.println(employeeID.getAttribute("value"));
         System.out.println(this.employeeID);
         explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class='oxd-form-loader']")));
-        driver.findElement(By.xpath("//div[@class='oxd-switch-wrapper']")).click();
+        By switchbutton = By.xpath("//div[@class='oxd-switch-wrapper']");
+        JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+        jsExecutor.executeScript("argumens[0].click", driver.findElement(switchbutton));
 
         driver.findElement(By.xpath("//label[text()='Username']/parent::div/following-sibling::div/input']")).sendKeys(userName);
         driver.findElement(By.xpath("//label[text()='Password']/parent::div//following-sibling::div/input")).sendKeys(password);

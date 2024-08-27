@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_23_TC01_TextBox_TextArea">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_10_Default_Dropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_11_CustomDropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_11_TC02_Handle_Textbox_TextArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_12_Handle_Button.java" afterDir="false" />
+    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_Handle_Button">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_13_Checkbox_Radio_Button.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_09_Texbox_TextArea_LiveTechPanda.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_09_Texbox_TextArea_LiveTechPanda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_11_TC02_Handle_Textbox_TextArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_11_TC02_Handle_Textbox_TextArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_12_Handle_Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_12_Handle_Button.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +99,9 @@
     "TestNG.Topic_11_TC02_Handle_Textbox_TextArea.executor": "Run",
     "TestNG.Topic_12_Handle_Button.TC_01_.executor": "Run",
     "TestNG.Topic_12_Handle_Button.TC_02_.executor": "Run",
+    "TestNG.Topic_13_Checkbox_Radio_Button.TC_01_Default_Telerik.executor": "Run",
+    "TestNG.Topic_13_Checkbox_Radio_Button.TC_03_Select_All_Checkbox.executor": "Run",
+    "TestNG.Topic_13_Checkbox_Radio_Button.TC_04_Custom_Checkbox.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.preview.features.used": "true",
     "ignore.virus.scanning.warn.message": "true",
@@ -125,43 +126,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_12_Handle_Button.TC_02_">
-    <configuration name="Topic_11_CustomDropdown.TC_03_VueJS_Custom_Dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_11_CustomDropdown" />
-      <option name="METHOD_NAME" value="TC_03_VueJS_Custom_Dropdown" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_11_CustomDropdown.TC_04_Editable_Dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_11_CustomDropdown" />
-      <option name="METHOD_NAME" value="TC_04_Editable_Dropdown" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_13_Checkbox_Radio_Button.TC_04_Custom_Checkbox">
     <configuration name="Topic_11_TC02_Handle_Textbox_TextArea" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -173,24 +138,6 @@
       <option name="PACKAGE_NAME" value="webdriver" />
       <option name="MAIN_CLASS_NAME" value="webdriver.Topic_11_TC02_Handle_Textbox_TextArea" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_12_Handle_Button.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_12_Handle_Button" />
-      <option name="METHOD_NAME" value="TC_01_" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -215,13 +162,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_13_Checkbox_Radio_Button.TC_01_Default_Telerik" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_13_Checkbox_Radio_Button" />
+      <option name="METHOD_NAME" value="TC_01_Default_Telerik" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_13_Checkbox_Radio_Button.TC_03_Select_All_Checkbox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_13_Checkbox_Radio_Button" />
+      <option name="METHOD_NAME" value="TC_03_Select_All_Checkbox" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_13_Checkbox_Radio_Button.TC_04_Custom_Checkbox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_13_Checkbox_Radio_Button" />
+      <option name="METHOD_NAME" value="TC_04_Custom_Checkbox" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_13_Checkbox_Radio_Button.TC_04_Custom_Checkbox" />
+        <item itemvalue="TestNG.Topic_13_Checkbox_Radio_Button.TC_03_Select_All_Checkbox" />
+        <item itemvalue="TestNG.Topic_13_Checkbox_Radio_Button.TC_01_Default_Telerik" />
         <item itemvalue="TestNG.Topic_12_Handle_Button.TC_02_" />
-        <item itemvalue="TestNG.Topic_12_Handle_Button.TC_01_" />
         <item itemvalue="TestNG.Topic_11_TC02_Handle_Textbox_TextArea" />
-        <item itemvalue="TestNG.Topic_11_CustomDropdown.TC_04_Editable_Dropdown" />
-        <item itemvalue="TestNG.Topic_11_CustomDropdown.TC_03_VueJS_Custom_Dropdown" />
       </list>
     </recent_temporary>
   </component>
@@ -250,6 +251,7 @@
     <MESSAGE value="Topic_17_WebDriver_Topic21_22" />
     <MESSAGE value="Topic_22_WebBrowser_WebElement_exercise" />
     <MESSAGE value="Topic_23_TC01_TextBox_TextArea" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_23_TC01_TextBox_TextArea" />
+    <MESSAGE value="Topic_Handle_Button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_Handle_Button" />
   </component>
 </project>

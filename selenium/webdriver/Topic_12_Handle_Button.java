@@ -37,9 +37,9 @@ public class Topic_12_Handle_Button {
 
         String getBGcolor = registerButton.getCssValue("background-color");
 
-        converColorHexa(getBGcolor);
+        converColortHexa(getBGcolor);
 
-        Assert.assertEquals(converColorHexa(getBGcolor), "#ef5a00");
+        Assert.assertEquals(converColortHexa(getBGcolor), "#ef5a00");
     }
 
     @Test
@@ -60,7 +60,7 @@ public class Topic_12_Handle_Button {
         Assert.assertTrue(loginButton.isEnabled());
 
         String loginBtnBgcolor = loginButton.getCssValue("background");
-        Assert.assertEquals(converColorHexa(loginBtnBgcolor).toUpperCase(), "#C92127");
+        Assert.assertEquals(converColortHexa(loginBtnBgcolor).toUpperCase(), "#C92127");
     }
 
     @Test
@@ -81,7 +81,7 @@ public class Topic_12_Handle_Button {
         }
     }
 
-    public String converColorHexa(String rgbColor){
+    public String converColortHexa(String rgbColor){
         Color getBGcolorRGB = Color.fromString(rgbColor);
         String getBGcolorHexa = getBGcolorRGB.asHex();
         return getBGcolorHexa;
