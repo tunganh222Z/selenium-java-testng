@@ -37,12 +37,15 @@ public class Topic_11_TC02_Handle_Textbox_TextArea {
         driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin" );
         driver.findElement(By.xpath("//input[@name='password']")).sendKeys("admin123");
         driver.findElement(By.xpath("//button[@type='submit']")).click();
+        sleepInSecond(5);
     }
 
     @Test
     public void TC_02_Add_Employees(){
         driver.findElement(By.xpath("//ul[@class='oxd-main-menu']//span[text()='PIM']")).click();
+        sleepInSecond(5);
         driver.findElement(By.xpath("//nav[@class='oxd-topbar-body-nav']//a[text()='Add Employee']")).click();
+        sleepInSecond(5);
 
         driver.findElement(By.xpath("//input[@name='firstName']")).sendKeys(firstName);
         driver.findElement(By.xpath("//input[@name='middleName']")).sendKeys(middleName);
@@ -53,16 +56,19 @@ public class Topic_11_TC02_Handle_Textbox_TextArea {
         this.employeeID = employeeIDString;
         System.out.println(employeeID.getAttribute("value"));
         System.out.println(this.employeeID);
+
         explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class='oxd-form-loader']")));
+        sleepInSecond(5);
         By switchbutton = By.xpath("//div[@class='oxd-switch-wrapper']");
         JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
-        jsExecutor.executeScript("argumens[0].click", driver.findElement(switchbutton));
+        jsExecutor.executeScript("arguments[0].click();", driver.findElement(switchbutton));
 
         driver.findElement(By.xpath("//label[text()='Username']/parent::div/following-sibling::div/input']")).sendKeys(userName);
         driver.findElement(By.xpath("//label[text()='Password']/parent::div//following-sibling::div/input")).sendKeys(password);
         driver.findElement(By.xpath("//label[text()='Confirm Password']/parent::div//following-sibling::div/input")).sendKeys(password);
 
         driver.findElement(By.xpath("//button[@type='submit']")).click();
+        sleepInSecond(5);
     }
     @Test
     public void TC_03_Verify_Infor(){
@@ -87,11 +93,13 @@ public class Topic_11_TC02_Handle_Textbox_TextArea {
         );
 
         driver.findElement(By.xpath("//a[text()='Immigration']")).click();
+        sleepInSecond(5);
     }
 
     @Test
     public void TC_03_Assigned_Immigration_Records(){
         driver.findElement(By.xpath("//h6[text()='Assigned Immigration Records']/following-sibling::button")).click();
+        sleepInSecond(5);
 
        WebElement passPortID = driver.findElement(By.xpath("//label[text()='Number']/parent::div/following-sibling::div/input"));
        passPortID.sendKeys(this.passPortID);
@@ -102,12 +110,14 @@ public class Topic_11_TC02_Handle_Textbox_TextArea {
        textArea.sendKeys(textCommentArea);
 
        driver.findElement(By.xpath("//h6[text()='Personal Details']/parent::div//button[@type='submit']")).click();
+        sleepInSecond(5);
 
     }
 
     @Test
     public void TC_04_Verify_edit_Infor(){
         driver.findElement(By.xpath("//i [@class='oxd-icon bi-pencil-fill']/parent::button")).click();
+        sleepInSecond(5);
 
         Assert.assertEquals(driver.findElement(By.xpath("//label[text()='Number']/parent::div/following-sibling::div/input")).getAttribute("value"),
                 passPortID);
@@ -120,6 +130,7 @@ public class Topic_11_TC02_Handle_Textbox_TextArea {
     @Test
     public void TC_05_LogOut(){
         driver.findElement(By.xpath("//li[@class='oxd-userdropdown']")).click();
+        sleepInSecond(5);
         if (driver.findElement(By.xpath("//ul[@class='oxd-dropdown-menu']")).isDisplayed()) {
             driver.findElement(By.xpath("//li/a[text()='Logout']")).click();
         } else {
@@ -132,7 +143,9 @@ public class Topic_11_TC02_Handle_Textbox_TextArea {
         driver.findElement(By.xpath("//input[@name='username']")).sendKeys(userName );
         driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
         driver.findElement(By.xpath("//button[@type='submit']")).click();
+        sleepInSecond(5);
         driver.findElement(By.xpath("//span[text()='My Info']/parent::a")).click();
+        sleepInSecond(5);
     }
 
     @Test
@@ -158,8 +171,10 @@ public class Topic_11_TC02_Handle_Textbox_TextArea {
         );
 
         driver.findElement(By.xpath("//a[text()='Immigration']")).click();
+        sleepInSecond(5);
 
         driver.findElement(By.xpath("//i [@class='oxd-icon bi-pencil-fill']/parent::button")).click();
+        sleepInSecond(5);
 
         Assert.assertEquals(driver.findElement(By.xpath("//label[text()='Number']/parent::div/following-sibling::div/input")).getAttribute("value"),
                 passPortID);
@@ -172,6 +187,14 @@ public class Topic_11_TC02_Handle_Textbox_TextArea {
     @AfterClass
     public void afterClass(){
         driver.quit();
+    }
+
+    public void sleepInSecond (long sleepTime){
+        try {
+            Thread.sleep(sleepTime * 1000);
+        } catch (InterruptedException e){
+            throw new RuntimeException(e);
+        }
     }
 
     public String randPassportID (){
