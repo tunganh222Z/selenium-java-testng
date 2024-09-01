@@ -40,8 +40,6 @@ public class Topic_16_PopUp_02 {
                 && driver.findElements(By.xpath("xpathPopupRand")).get(0).isDisplayed() ){
 
         }
-
-
     }
 
     @Test

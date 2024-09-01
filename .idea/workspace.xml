@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_17_Handle_PopUp_01">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_16_PopUp_02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_18_Handle_PopUp_02" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -273,6 +270,7 @@
     <MESSAGE value="Topic_31_User_Interaction1" />
     <MESSAGE value="Topic_16_User_Interaction_123" />
     <MESSAGE value="Topic_17_Handle_PopUp_01" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_17_Handle_PopUp_01" />
+    <MESSAGE value="Topic_18_Handle_PopUp_02" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_18_Handle_PopUp_02" />
   </component>
 </project>
