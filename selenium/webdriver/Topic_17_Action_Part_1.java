@@ -48,6 +48,19 @@ public class Topic_17_Action_Part_1 {
 
     }
 
+    @Test
+    public void TC_03_(){
+        driver.get("https://www.fahasa.com/");
+
+        action.moveToElement(driver.findElement(By.xpath("//span[@class='icon_menu']"))).perform();
+        sleepInsecond(2);
+        driver.findElement(By.xpath("//div[@class='fhs_column_stretch']//ul[@class='nav-links']//a[text()='Tiểu Thuyết']")).click();
+        System.out.println(driver.findElement(By.xpath("//ol[@class='breadcrumb']//li[contains(@class,'category')]/strong[text()='Tiểu thuyết']")).getText().toUpperCase());
+
+        Assert.assertEquals(driver.findElement(By.xpath("//ol[@class='breadcrumb']//li[contains(@class,'category')]/strong[text()='Tiểu thuyết']")).getText().toUpperCase(),"TIỂU THUYẾT");
+
+    }
+
     public void  sleepInsecond (long sleepTime){
         try {
             Thread.sleep(sleepTime * 1000);
