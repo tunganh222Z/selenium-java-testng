@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_18_Handle_PopUp_02" />
+    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_18_Handle_PopUp_02">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_20_Shadow_DOM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,6 +118,8 @@
     "TestNG.Topic_18_Action_Part_2.TC_03_Double_Click.executor": "Run",
     "TestNG.Topic_18_Action_Part_2.TC_04_Right_Click.executor": "Run",
     "TestNG.Topic_19_Action_Part_3.TC_01_Drag_and_Drop_HTML4.executor": "Run",
+    "TestNG.Topic_20_Shadow_DOM.TC_01_.executor": "Run",
+    "TestNG.Topic_20_Shadow_DOM.TC_02_ShadowDOM_Shopee.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.preview.features.used": "true",
     "ignore.virus.scanning.warn.message": "true",
@@ -139,25 +144,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_16_PopUp_02.TC_01_Random_PopUp_inDOM">
-    <configuration name="Topic_15_Popup_01.TC_01_Fixed_PopUp_inDom" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_15_Popup_01" />
-      <option name="METHOD_NAME" value="TC_01_Fixed_PopUp_inDom" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_20_Shadow_DOM.TC_02_ShadowDOM_Shopee">
     <configuration name="Topic_15_Popup_01.TC_01_Fixed_PopUp_inDom_01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -169,24 +156,6 @@
       <option name="PACKAGE_NAME" value="webdriver" />
       <option name="MAIN_CLASS_NAME" value="webdriver.Topic_15_Popup_01" />
       <option name="METHOD_NAME" value="TC_01_Fixed_PopUp_inDom_01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_15_Popup_01.TC_02_Fixed_PopUp_inDom_02" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_15_Popup_01" />
-      <option name="METHOD_NAME" value="TC_02_Fixed_PopUp_inDom_02" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -230,13 +199,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_20_Shadow_DOM.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_20_Shadow_DOM" />
+      <option name="METHOD_NAME" value="TC_01_" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_20_Shadow_DOM.TC_02_ShadowDOM_Shopee" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_20_Shadow_DOM" />
+      <option name="METHOD_NAME" value="TC_02_ShadowDOM_Shopee" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_20_Shadow_DOM.TC_02_ShadowDOM_Shopee" />
+        <item itemvalue="TestNG.Topic_20_Shadow_DOM.TC_01_" />
         <item itemvalue="TestNG.Topic_16_PopUp_02.TC_01_Random_PopUp_inDOM" />
         <item itemvalue="TestNG.Topic_15_Popup_01.TC_03_Fixed_PopUp_Not_inDom_01" />
         <item itemvalue="TestNG.Topic_15_Popup_01.TC_01_Fixed_PopUp_inDom_01" />
-        <item itemvalue="TestNG.Topic_15_Popup_01.TC_02_Fixed_PopUp_inDom_02" />
-        <item itemvalue="TestNG.Topic_15_Popup_01.TC_01_Fixed_PopUp_inDom" />
       </list>
     </recent_temporary>
   </component>
