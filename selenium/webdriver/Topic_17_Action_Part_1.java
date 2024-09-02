@@ -42,6 +42,7 @@ public class Topic_17_Action_Part_1 {
         action.moveToElement(driver.findElement(By.xpath("//div[@data-reactid='334']"))).perform();
         sleepInsecond(3);
 
+
         driver.findElement(By.xpath("//a [@class='desktop-categoryName' and text()='Home & Bath']")).click();
 
         Assert.assertEquals(driver.findElement(By.xpath("//span[text()='Kids Home Bath']")).getText(), "Kids Home Bath");
