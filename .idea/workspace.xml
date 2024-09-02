@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_20_Frame_iFrame">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_22_Window_newTabs.java" afterDir="false" />
+    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_21_Window_Tab">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_23_Js_Executor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -282,6 +282,7 @@
     <MESSAGE value="Topic_19_Shadow_DOM" />
     <MESSAGE value="Topic_21_Frame_iFrame" />
     <MESSAGE value="Topic_20_Frame_iFrame" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_20_Frame_iFrame" />
+    <MESSAGE value="Topic_21_Window_Tab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_21_Window_Tab" />
   </component>
 </project>
