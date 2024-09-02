@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_21_Window_Tab">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_23_Js_Executor.java" afterDir="false" />
+    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_23_Js_Executor">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_24_Upload_File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploadFiles/Image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploadFiles/image (75).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploadFiles/image (76).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploadFiles/image2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,11 +127,12 @@
     "TestNG.Topic_21_Frame_iFrame.TC_01_.executor": "Run",
     "TestNG.Topic_21_Frame_iFrame.TC_02_iFrame_KynaEnglish.executor": "Run",
     "TestNG.Topic_22_Window_newTabs.TC_01_Basic_Form.executor": "Run",
+    "TestNG.Topic_24_Upload_File.TC_01_Single_File.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.preview.features.used": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/tunga/Downloads/automation/software/selenium webdriver/selenium-java-testng/libraries/testng-7.10.2-sources.jar",
+    "last_opened_file_path": "C:/Users/tunga/Downloads/automation/software/selenium webdriver/selenium-java-testng/uploadFiles",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.25632185",
@@ -139,6 +144,7 @@
       <recent name="webdriver" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tunga\Downloads\automation\software\selenium webdriver\selenium-java-testng\uploadFiles" />
       <recent name="C:\Users\tunga\Downloads\automation\software\selenium webdriver\selenium-java-testng\libraries" />
       <recent name="C:\Users\tunga\Downloads\automation\software\selenium webdriver\selenium-java-testng\sourceDocs" />
       <recent name="C:\Users\tunga\Downloads\automation\software\selenium webdriver\selenium-java-testng\Libraries" />
@@ -147,25 +153,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_22_Window_newTabs.TC_01_Basic_Form">
-    <configuration name="Topic_20_Shadow_DOM.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_20_Shadow_DOM" />
-      <option name="METHOD_NAME" value="TC_01_" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_24_Upload_File.TC_01_Single_File">
     <configuration name="Topic_20_Shadow_DOM.TC_02_ShadowDOM_Shopee" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -238,13 +226,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_24_Upload_File.TC_01_Single_File" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_24_Upload_File" />
+      <option name="METHOD_NAME" value="TC_01_Single_File" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_24_Upload_File.TC_01_Single_File" />
         <item itemvalue="TestNG.Topic_22_Window_newTabs.TC_01_Basic_Form" />
         <item itemvalue="TestNG.Topic_21_Frame_iFrame.TC_02_iFrame_KynaEnglish" />
         <item itemvalue="TestNG.Topic_21_Frame_iFrame.TC_01_" />
         <item itemvalue="TestNG.Topic_20_Shadow_DOM.TC_02_ShadowDOM_Shopee" />
-        <item itemvalue="TestNG.Topic_20_Shadow_DOM.TC_01_" />
       </list>
     </recent_temporary>
   </component>
@@ -283,6 +289,7 @@
     <MESSAGE value="Topic_21_Frame_iFrame" />
     <MESSAGE value="Topic_20_Frame_iFrame" />
     <MESSAGE value="Topic_21_Window_Tab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_21_Window_Tab" />
+    <MESSAGE value="Topic_23_Js_Executor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_23_Js_Executor" />
   </component>
 </project>
