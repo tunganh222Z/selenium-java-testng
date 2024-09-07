@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_28_Wait_07_Explicit_03">
-      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_29_Wait_08_Mix_Implicit_Explicit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_29_Wait_08_Mix_Implicit_Explicit">
+      <change afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_30_Wait_09_Fluent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,6 +136,8 @@
     "TestNG.Topic_29_Wait_08_Mix_Implicit_Explicit.TC_04_Only_Explicit_notFound.executor": "Run",
     "TestNG.Topic_29_Wait_08_Mix_Implicit_Explicit.TC_05_Mixing_Implicit_Explicit_Found.executor": "Run",
     "TestNG.Topic_29_Wait_08_Mix_Implicit_Explicit.TC_06_Only_Explicit_notFound_Param_webElement.executor": "Run",
+    "TestNG.Topic_30_Wait_09_Fluent.TC_02_.executor": "Run",
+    "TestNG.Topic_30_Wait_09_Fluent.TC_03_.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.preview.features.used": "true",
     "ignore.virus.scanning.warn.message": "true",
@@ -162,43 +163,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_29_Wait_08_Mix_Implicit_Explicit.TC_06_Only_Explicit_notFound_Param_webElement">
-    <configuration name="Topic_28_Wait_06_Explicit_02.TC_03_GreaterThan_5s" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_28_Wait_06_Explicit_02" />
-      <option name="METHOD_NAME" value="TC_03_GreaterThan_5s" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_28_Wait_07_Explicit_03.TC_02_UploadFiles" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_28_Wait_07_Explicit_03" />
-      <option name="METHOD_NAME" value="TC_02_UploadFiles" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Topic_30_Wait_09_Fluent.TC_03_">
     <configuration name="Topic_29_Wait_08_Mix_Implicit_Explicit.TC_04_Only_Explicit_notFound" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -253,13 +218,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_30_Wait_09_Fluent.TC_02_" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_30_Wait_09_Fluent" />
+      <option name="METHOD_NAME" value="TC_02_" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_30_Wait_09_Fluent.TC_03_" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_30_Wait_09_Fluent" />
+      <option name="METHOD_NAME" value="TC_03_" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_30_Wait_09_Fluent.TC_03_" />
+        <item itemvalue="TestNG.Topic_30_Wait_09_Fluent.TC_02_" />
         <item itemvalue="TestNG.Topic_29_Wait_08_Mix_Implicit_Explicit.TC_06_Only_Explicit_notFound_Param_webElement" />
         <item itemvalue="TestNG.Topic_29_Wait_08_Mix_Implicit_Explicit.TC_05_Mixing_Implicit_Explicit_Found" />
         <item itemvalue="TestNG.Topic_29_Wait_08_Mix_Implicit_Explicit.TC_04_Only_Explicit_notFound" />
-        <item itemvalue="TestNG.Topic_28_Wait_07_Explicit_03.TC_02_UploadFiles" />
-        <item itemvalue="TestNG.Topic_28_Wait_06_Explicit_02.TC_03_GreaterThan_5s" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +277,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="push_topic_02" />
     <MESSAGE value="push_topic_00_template" />
     <MESSAGE value="Topic_11_seleniumLocator" />
     <MESSAGE value="Topic_14_Text_Concat_AndOr" />
@@ -301,6 +301,7 @@
     <MESSAGE value="Topic_27_Wait_03_Implicit" />
     <MESSAGE value="Topic_28_Wait_05_Explicit_Knowledge" />
     <MESSAGE value="Topic_28_Wait_07_Explicit_03" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_28_Wait_07_Explicit_03" />
+    <MESSAGE value="Topic_29_Wait_08_Mix_Implicit_Explicit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_29_Wait_08_Mix_Implicit_Explicit" />
   </component>
 </project>
