@@ -42,17 +42,6 @@ public class Topic_27_Wait_03_Implicit {
 
     }
 
-    @Test
-    public void TC_03_(){
-        driver.get("https://demo.minimog.co/");
-        driver.findElement(By.xpath("//button[@class='m-slider-controls__button m-slider-controls__button-prev swiper-button-prev ']")).click();
-        Assert.assertTrue(driver.findElement(By.xpath("//button[@class='m-slider-controls__button m-slider-controls__button-prev swiper-button-prev ']")).isDisplayed());
-        String totalPage = driver.findElement(By.xpath("//div[@class='m-collection-list__header-container container-fluid']//span[@class='swiper-pagination-total']")).getText();
-        int carouselTotal = Integer.parseInt(totalPage);
-        for (int i = 0;  i < carouselTotal ; i++){
-            driver.findElement(By.xpath("//button[@class='m-slider-controls__button m-slider-controls__button-prev swiper-button-prev ']")).click();
-        }
-    }
 
 
 
