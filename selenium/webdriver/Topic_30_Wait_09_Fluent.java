@@ -143,12 +143,12 @@ public class Topic_30_Wait_09_Fluent {
                 .withTimeout(Duration.ofSeconds(10))
                 .pollingEvery(Duration.ofMillis(100))
                 .ignoring(NoSuchElementException.class);
-        fluentDriver.until(new Function<WebDriver, WebElement >() {
+        return fluentDriver.until(new Function<WebDriver, WebElement >() {
             @Override
             public WebElement apply(WebDriver webDriver){
                 return webDriver.findElement(locator);
             }
-        })
+        });
     }
 
 
