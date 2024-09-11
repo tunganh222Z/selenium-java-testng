@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_31_Wait_10_Page_Ready">
-      <change afterPath="$PROJECT_DIR$/selenium/testNG/Topic_01_Sample.java" afterDir="false" />
+    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_01_TestNG">
+      <change afterPath="$PROJECT_DIR$/selenium/testNG/Topic_03_Assert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testNG/Topic_04_Group_Testcase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testNG/Topic_05_Piority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testNG/Topic_06_Skip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testNG/Topic_07_Description.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testNG/Topic_08_Data_Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/testNG/Topic_09_Parameter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,109 +53,110 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Person.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Topic_02_And_Or.executor&quot;: &quot;Run&quot;,
-    &quot;Application.new_file_to_commit.executor&quot;: &quot;Run&quot;,
-    &quot;JAR Application.selenium-server-4.23.0.jar.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.Topic_00_Template (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_00_Template (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_00_Template.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_01_Enviroment.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_02_Selenium_Locator (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_02_Selenium_Locator (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_02_Selenium_Locator.TC_00_Password.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_02_Selenium_Locator.TC_06_Partial.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_02_Selenium_Locator.TC_07_Css.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_02_Selenium_Locator.TC_08_XPath.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_02_Selenium_Locator.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_03_Selenium_Relative.TC_01_Password_ageVerify.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_03_Selenium_Relative.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_04_FindElement.TC_01_Text_isDisplayed_getText (1).executor&quot;: &quot;Debug&quot;,
-    &quot;TestNG.Topic_04_FindElement.TC_01_Text_isDisplayed_getText.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_04_FindElement.TC_02_concatMethod.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_04_FindElement.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_Exercise_XpathAndCss.TC_06_RegisterWithInvalidPhoneNumber.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_Exercise_XpathAndCss.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_Register.TC_01_Click_VisitHere.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_06_Register.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_Exercise_XpathAndCss.TC_01_RegisterWithEmptyData.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_Exercise_XpathAndCss.TC_02_RegisterWithInvalidEmail.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebBrowser_Commands_02.TC_01_Url.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebBrowser_Commands_02.TC_03_PageNavigation.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_07_WebBrowser_Commands_02.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_08_webElement_Commands_02.TC_03_isSelected.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_08_webElement_Commands_02.TC_04_registerFunctionAt_MailChimp.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_08_webElement_Commands_02.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_09_Login_LiveTechPanda.TC_01_loginWithValidateEmail.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_09_Login_LiveTechPanda.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_09_Texbox_TextArea_LiveTechPanda.TC_05_Login_Success.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_10_Default_Dropdown.TC_01_Register.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_11_CustomDropdown.TC_01_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_11_CustomDropdown.TC_02_React_Custom_Dropdown.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_11_CustomDropdown.TC_03_VueJS_Custom_Dropdown.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_11_CustomDropdown.TC_04_Editable_Dropdown.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_11_TC02_Handle_Textbox_TextArea.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_12_Handle_Button.TC_01_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_12_Handle_Button.TC_02_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_13_Checkbox_Radio_Button.TC_01_Default_Telerik.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_13_Checkbox_Radio_Button.TC_03_Select_All_Checkbox.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_13_Checkbox_Radio_Button.TC_04_Custom_Checkbox.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_13_Checkbox_Radio_Button.TC_05_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_13_Checkbox_Radio_Button.TC_06_Google.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_14_Alert.TC_01_Alert.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_14_Alert.TC_04_Authentication_Alert_Selenium_4x.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_15_Popup_01.TC_01_Fixed_PopUp_inDom.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_15_Popup_01.TC_01_Fixed_PopUp_inDom_01.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_15_Popup_01.TC_02_Fixed_PopUp_inDom_02.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_15_Popup_01.TC_03_Fixed_PopUp_Not_inDom_01.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_16_PopUp_02.TC_01_Random_PopUp_inDOM.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_17_Action_Part_1.TC_01_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_17_Action_Part_1.TC_01_Hover_mouse.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_17_Action_Part_1.TC_02_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_17_Action_Part_1.TC_03_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_18_Action_Part_2.TC_01_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_18_Action_Part_2.TC_02_Click_Hold_Specific.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_18_Action_Part_2.TC_03_Double_Click.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_18_Action_Part_2.TC_04_Right_Click.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_19_Action_Part_3.TC_01_Drag_and_Drop_HTML4.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_20_Shadow_DOM.TC_01_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_20_Shadow_DOM.TC_02_ShadowDOM_Shopee.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_21_Frame_iFrame.TC_01_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_21_Frame_iFrame.TC_02_iFrame_KynaEnglish.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_22_Window_newTabs.TC_01_Basic_Form.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_24_Upload_File.TC_01_Single_File.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_27_Wait_03_Implicit.TC_01_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_27_Wait_03_Implicit.TC_02_LessThan_5s.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_27_Wait_03_Implicit.TC_03_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_27_Wait_03_Implicit.TC_03_GreaterThan_5s.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_28_Wait_06_Explicit_02.TC_03_GreaterThan_5s.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_28_Wait_07_Explicit_03.TC_01_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_28_Wait_07_Explicit_03.TC_02_UploadFiles.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_29_Wait_06_Explicit_02.TC_02_LessThan_5s.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_29_Wait_06_Explicit_02.TC_02_Visible_Wait.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_29_Wait_08_Mix_Implicit_Explicit.TC_04_Only_Explicit_notFound.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_29_Wait_08_Mix_Implicit_Explicit.TC_05_Mixing_Implicit_Explicit_Found.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_29_Wait_08_Mix_Implicit_Explicit.TC_06_Only_Explicit_notFound_Param_webElement.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_30_Wait_09_Fluent.TC_02_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_30_Wait_09_Fluent.TC_03_.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Topic_31_Wait_10_Page_Ready.TC_01_Ajax_Loading.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tunga/Downloads/automation/software/selenium webdriver/selenium-java-testng/uploadFiles&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.25632185&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Person.executor": "Run",
+    "Application.Topic_02_And_Or.executor": "Run",
+    "Application.new_file_to_commit.executor": "Run",
+    "JAR Application.selenium-server-4.23.0.jar.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Topic_00_Template (1).executor": "Run",
+    "TestNG.Topic_00_Template (2).executor": "Run",
+    "TestNG.Topic_00_Template.executor": "Run",
+    "TestNG.Topic_01_Enviroment.executor": "Run",
+    "TestNG.Topic_02_Selenium_Locator (1).executor": "Run",
+    "TestNG.Topic_02_Selenium_Locator (2).executor": "Run",
+    "TestNG.Topic_02_Selenium_Locator.TC_00_Password.executor": "Run",
+    "TestNG.Topic_02_Selenium_Locator.TC_06_Partial.executor": "Run",
+    "TestNG.Topic_02_Selenium_Locator.TC_07_Css.executor": "Run",
+    "TestNG.Topic_02_Selenium_Locator.TC_08_XPath.executor": "Run",
+    "TestNG.Topic_02_Selenium_Locator.executor": "Run",
+    "TestNG.Topic_03_Selenium_Relative.TC_01_Password_ageVerify.executor": "Run",
+    "TestNG.Topic_03_Selenium_Relative.executor": "Run",
+    "TestNG.Topic_04_FindElement.TC_01_Text_isDisplayed_getText (1).executor": "Debug",
+    "TestNG.Topic_04_FindElement.TC_01_Text_isDisplayed_getText.executor": "Run",
+    "TestNG.Topic_04_FindElement.TC_02_concatMethod.executor": "Run",
+    "TestNG.Topic_04_FindElement.executor": "Run",
+    "TestNG.Topic_06_Exercise_XpathAndCss.TC_06_RegisterWithInvalidPhoneNumber.executor": "Run",
+    "TestNG.Topic_06_Exercise_XpathAndCss.executor": "Run",
+    "TestNG.Topic_06_Register.TC_01_Click_VisitHere.executor": "Run",
+    "TestNG.Topic_06_Register.executor": "Run",
+    "TestNG.Topic_07_Description.TC_01_.executor": "Run",
+    "TestNG.Topic_07_Exercise_XpathAndCss.TC_01_RegisterWithEmptyData.executor": "Run",
+    "TestNG.Topic_07_Exercise_XpathAndCss.TC_02_RegisterWithInvalidEmail.executor": "Run",
+    "TestNG.Topic_07_WebBrowser_Commands_02.TC_01_Url.executor": "Run",
+    "TestNG.Topic_07_WebBrowser_Commands_02.TC_03_PageNavigation.executor": "Run",
+    "TestNG.Topic_07_WebBrowser_Commands_02.executor": "Run",
+    "TestNG.Topic_08_webElement_Commands_02.TC_03_isSelected.executor": "Run",
+    "TestNG.Topic_08_webElement_Commands_02.TC_04_registerFunctionAt_MailChimp.executor": "Run",
+    "TestNG.Topic_08_webElement_Commands_02.executor": "Run",
+    "TestNG.Topic_09_Login_LiveTechPanda.TC_01_loginWithValidateEmail.executor": "Run",
+    "TestNG.Topic_09_Login_LiveTechPanda.executor": "Run",
+    "TestNG.Topic_09_Texbox_TextArea_LiveTechPanda.TC_05_Login_Success.executor": "Run",
+    "TestNG.Topic_10_Default_Dropdown.TC_01_Register.executor": "Run",
+    "TestNG.Topic_11_CustomDropdown.TC_01_.executor": "Run",
+    "TestNG.Topic_11_CustomDropdown.TC_02_React_Custom_Dropdown.executor": "Run",
+    "TestNG.Topic_11_CustomDropdown.TC_03_VueJS_Custom_Dropdown.executor": "Run",
+    "TestNG.Topic_11_CustomDropdown.TC_04_Editable_Dropdown.executor": "Run",
+    "TestNG.Topic_11_TC02_Handle_Textbox_TextArea.executor": "Run",
+    "TestNG.Topic_12_Handle_Button.TC_01_.executor": "Run",
+    "TestNG.Topic_12_Handle_Button.TC_02_.executor": "Run",
+    "TestNG.Topic_13_Checkbox_Radio_Button.TC_01_Default_Telerik.executor": "Run",
+    "TestNG.Topic_13_Checkbox_Radio_Button.TC_03_Select_All_Checkbox.executor": "Run",
+    "TestNG.Topic_13_Checkbox_Radio_Button.TC_04_Custom_Checkbox.executor": "Run",
+    "TestNG.Topic_13_Checkbox_Radio_Button.TC_05_.executor": "Run",
+    "TestNG.Topic_13_Checkbox_Radio_Button.TC_06_Google.executor": "Run",
+    "TestNG.Topic_14_Alert.TC_01_Alert.executor": "Run",
+    "TestNG.Topic_14_Alert.TC_04_Authentication_Alert_Selenium_4x.executor": "Run",
+    "TestNG.Topic_15_Popup_01.TC_01_Fixed_PopUp_inDom.executor": "Run",
+    "TestNG.Topic_15_Popup_01.TC_01_Fixed_PopUp_inDom_01.executor": "Run",
+    "TestNG.Topic_15_Popup_01.TC_02_Fixed_PopUp_inDom_02.executor": "Run",
+    "TestNG.Topic_15_Popup_01.TC_03_Fixed_PopUp_Not_inDom_01.executor": "Run",
+    "TestNG.Topic_16_PopUp_02.TC_01_Random_PopUp_inDOM.executor": "Run",
+    "TestNG.Topic_17_Action_Part_1.TC_01_.executor": "Run",
+    "TestNG.Topic_17_Action_Part_1.TC_01_Hover_mouse.executor": "Run",
+    "TestNG.Topic_17_Action_Part_1.TC_02_.executor": "Run",
+    "TestNG.Topic_17_Action_Part_1.TC_03_.executor": "Run",
+    "TestNG.Topic_18_Action_Part_2.TC_01_.executor": "Run",
+    "TestNG.Topic_18_Action_Part_2.TC_02_Click_Hold_Specific.executor": "Run",
+    "TestNG.Topic_18_Action_Part_2.TC_03_Double_Click.executor": "Run",
+    "TestNG.Topic_18_Action_Part_2.TC_04_Right_Click.executor": "Run",
+    "TestNG.Topic_19_Action_Part_3.TC_01_Drag_and_Drop_HTML4.executor": "Run",
+    "TestNG.Topic_20_Shadow_DOM.TC_01_.executor": "Run",
+    "TestNG.Topic_20_Shadow_DOM.TC_02_ShadowDOM_Shopee.executor": "Run",
+    "TestNG.Topic_21_Frame_iFrame.TC_01_.executor": "Run",
+    "TestNG.Topic_21_Frame_iFrame.TC_02_iFrame_KynaEnglish.executor": "Run",
+    "TestNG.Topic_22_Window_newTabs.TC_01_Basic_Form.executor": "Run",
+    "TestNG.Topic_24_Upload_File.TC_01_Single_File.executor": "Run",
+    "TestNG.Topic_27_Wait_03_Implicit.TC_01_.executor": "Run",
+    "TestNG.Topic_27_Wait_03_Implicit.TC_02_LessThan_5s.executor": "Run",
+    "TestNG.Topic_27_Wait_03_Implicit.TC_03_.executor": "Run",
+    "TestNG.Topic_27_Wait_03_Implicit.TC_03_GreaterThan_5s.executor": "Run",
+    "TestNG.Topic_28_Wait_06_Explicit_02.TC_03_GreaterThan_5s.executor": "Run",
+    "TestNG.Topic_28_Wait_07_Explicit_03.TC_01_.executor": "Run",
+    "TestNG.Topic_28_Wait_07_Explicit_03.TC_02_UploadFiles.executor": "Run",
+    "TestNG.Topic_29_Wait_06_Explicit_02.TC_02_LessThan_5s.executor": "Run",
+    "TestNG.Topic_29_Wait_06_Explicit_02.TC_02_Visible_Wait.executor": "Run",
+    "TestNG.Topic_29_Wait_08_Mix_Implicit_Explicit.TC_04_Only_Explicit_notFound.executor": "Run",
+    "TestNG.Topic_29_Wait_08_Mix_Implicit_Explicit.TC_05_Mixing_Implicit_Explicit_Found.executor": "Run",
+    "TestNG.Topic_29_Wait_08_Mix_Implicit_Explicit.TC_06_Only_Explicit_notFound_Param_webElement.executor": "Run",
+    "TestNG.Topic_30_Wait_09_Fluent.TC_02_.executor": "Run",
+    "TestNG.Topic_30_Wait_09_Fluent.TC_03_.executor": "Run",
+    "TestNG.Topic_31_Wait_10_Page_Ready.TC_01_Ajax_Loading.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.preview.features.used": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/tunga/Downloads/automation/software/selenium webdriver/selenium-java-testng/uploadFiles",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.25632185",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="webdriver" />
@@ -161,21 +168,22 @@
       <recent name="C:\Users\tunga\Downloads\automation\software\selenium webdriver\selenium-java-testng\Libraries" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testNG" />
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_31_Wait_10_Page_Ready.TC_01_Ajax_Loading">
-    <configuration name="Topic_29_Wait_08_Mix_Implicit_Explicit.TC_05_Mixing_Implicit_Explicit_Found" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Topic_07_Description.TC_01_">
+    <configuration name="Topic_07_Description.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.*" />
+          <option name="PATTERN" value="testNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_29_Wait_08_Mix_Implicit_Explicit" />
-      <option name="METHOD_NAME" value="TC_05_Mixing_Implicit_Explicit_Found" />
+      <option name="PACKAGE_NAME" value="testNG" />
+      <option name="MAIN_CLASS_NAME" value="testNG.Topic_07_Description" />
+      <option name="METHOD_NAME" value="TC_01_" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -257,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_07_Description.TC_01_" />
         <item itemvalue="TestNG.Topic_31_Wait_10_Page_Ready.TC_01_Ajax_Loading" />
         <item itemvalue="TestNG.Topic_30_Wait_09_Fluent.TC_03_" />
         <item itemvalue="TestNG.Topic_30_Wait_09_Fluent.TC_02_" />
         <item itemvalue="TestNG.Topic_29_Wait_08_Mix_Implicit_Explicit.TC_06_Only_Explicit_notFound_Param_webElement" />
-        <item itemvalue="TestNG.Topic_29_Wait_08_Mix_Implicit_Explicit.TC_05_Mixing_Implicit_Explicit_Found" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +286,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Topic_14_Text_Concat_AndOr" />
     <MESSAGE value="Topic_15_Login_Guru99_v4" />
     <MESSAGE value="Topic_17_Xpath_Exercise_XpathAndCSS" />
     <MESSAGE value="Topic_17_WebDriver_Topic21_22" />
@@ -303,6 +310,7 @@
     <MESSAGE value="Topic_29_Wait_08_Mix_Implicit_Explicit" />
     <MESSAGE value="Topic_30_Wait_09_Fluent" />
     <MESSAGE value="Topic_31_Wait_10_Page_Ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_31_Wait_10_Page_Ready" />
+    <MESSAGE value="Topic_01_TestNG" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_01_TestNG" />
   </component>
 </project>
