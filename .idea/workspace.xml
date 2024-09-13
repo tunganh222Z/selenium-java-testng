@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_01_TestNG">
-      <change afterPath="$PROJECT_DIR$/selenium/testNG/Topic_03_Assert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/testNG/Topic_04_Group_Testcase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/testNG/Topic_05_Piority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/testNG/Topic_06_Skip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/testNG/Topic_07_Description.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/testNG/Topic_08_Data_Provider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/testNG/Topic_09_Parameter.java" afterDir="false" />
+    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_03_TestNG">
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_03_Compare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_04_Casting_Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploadFiles/testNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_01_Data_Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_01_Data_Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/testNG/Topic_09_Parameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/testNG/Topic_09_Parameter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +57,8 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Person.executor": "Run",
     "Application.Topic_02_And_Or.executor": "Run",
+    "Application.Topic_03_Compare.executor": "Run",
+    "Application.Topic_04_Casting_Type.executor": "Coverage",
     "Application.new_file_to_commit.executor": "Run",
     "JAR Application.selenium-server-4.23.0.jar.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -172,7 +172,56 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Topic_07_Description.TC_01_">
+  <component name="RunManager" selected="Application.Topic_04_Casting_Type">
+    <configuration name="Topic_02_And_Or" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_02_And_Or" />
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaTester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_03_Compare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_03_Compare" />
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaTester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_04_Casting_Type" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_04_Casting_Type" />
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaTester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/tunga/Downloads/automation/software/selenium webdriver/selenium-java-testng/uploadFiles/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/uploadFiles/testNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Topic_07_Description.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
@@ -191,85 +240,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_29_Wait_08_Mix_Implicit_Explicit.TC_06_Only_Explicit_notFound_Param_webElement" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_29_Wait_08_Mix_Implicit_Explicit" />
-      <option name="METHOD_NAME" value="TC_06_Only_Explicit_notFound_Param_webElement" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_30_Wait_09_Fluent.TC_02_" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_30_Wait_09_Fluent" />
-      <option name="METHOD_NAME" value="TC_02_" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_30_Wait_09_Fluent.TC_03_" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_30_Wait_09_Fluent" />
-      <option name="METHOD_NAME" value="TC_03_" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_31_Wait_10_Page_Ready.TC_01_Ajax_Loading" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_31_Wait_10_Page_Ready" />
-      <option name="METHOD_NAME" value="TC_01_Ajax_Loading" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Topic_04_Casting_Type" />
+        <item itemvalue="Application.Topic_02_And_Or" />
+        <item itemvalue="Application.Topic_03_Compare" />
+        <item itemvalue="TestNG.C:/Users/tunga/Downloads/automation/software/selenium webdriver/selenium-java-testng/uploadFiles/testNG.xml" />
         <item itemvalue="TestNG.Topic_07_Description.TC_01_" />
-        <item itemvalue="TestNG.Topic_31_Wait_10_Page_Ready.TC_01_Ajax_Loading" />
-        <item itemvalue="TestNG.Topic_30_Wait_09_Fluent.TC_03_" />
-        <item itemvalue="TestNG.Topic_30_Wait_09_Fluent.TC_02_" />
-        <item itemvalue="TestNG.Topic_29_Wait_08_Mix_Implicit_Explicit.TC_06_Only_Explicit_notFound_Param_webElement" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +263,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Topic_15_Login_Guru99_v4" />
     <MESSAGE value="Topic_17_Xpath_Exercise_XpathAndCSS" />
     <MESSAGE value="Topic_17_WebDriver_Topic21_22" />
     <MESSAGE value="Topic_22_WebBrowser_WebElement_exercise" />
@@ -311,6 +287,12 @@
     <MESSAGE value="Topic_30_Wait_09_Fluent" />
     <MESSAGE value="Topic_31_Wait_10_Page_Ready" />
     <MESSAGE value="Topic_01_TestNG" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_01_TestNG" />
+    <MESSAGE value="Topic_03_TestNG" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_03_TestNG" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/selenium_java_testng$Topic_04_Casting_Type.ic" NAME="Topic_04_Casting_Type Coverage Results" MODIFIED="1726150840353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>javaTester.*</FILTER>
+    </SUITE>
   </component>
 </project>
