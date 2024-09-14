@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_03_TestNG">
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_03_Compare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_04_Casting_Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploadFiles/testNG.xml" afterDir="false" />
+    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_04_Casting_Type_Java">
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_07_Switch_case.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_08_Array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_01_Data_Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_01_Data_Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/testNG/Topic_09_Parameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/testNG/Topic_09_Parameter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +169,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Topic_04_Casting_Type">
+  <component name="RunManager" selected="TestNG.Topic_08_Array.TC_01_Array">
     <configuration name="Topic_02_And_Or" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaTester.Topic_02_And_Or" />
       <module name="selenium-java-testng" />
@@ -222,17 +219,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_07_Description.TC_01_" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_08_Array.TC_01_Array" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testNG.*" />
+          <option name="PATTERN" value="javaTester.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testNG" />
-      <option name="MAIN_CLASS_NAME" value="testNG.Topic_07_Description" />
-      <option name="METHOD_NAME" value="TC_01_" />
+      <option name="PACKAGE_NAME" value="javaTester" />
+      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_08_Array" />
+      <option name="METHOD_NAME" value="TC_01_Array" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -242,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_08_Array.TC_01_Array" />
         <item itemvalue="Application.Topic_04_Casting_Type" />
         <item itemvalue="Application.Topic_02_And_Or" />
         <item itemvalue="Application.Topic_03_Compare" />
         <item itemvalue="TestNG.C:/Users/tunga/Downloads/automation/software/selenium webdriver/selenium-java-testng/uploadFiles/testNG.xml" />
-        <item itemvalue="TestNG.Topic_07_Description.TC_01_" />
       </list>
     </recent_temporary>
   </component>
@@ -263,8 +260,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Topic_17_Xpath_Exercise_XpathAndCSS" />
-    <MESSAGE value="Topic_17_WebDriver_Topic21_22" />
     <MESSAGE value="Topic_22_WebBrowser_WebElement_exercise" />
     <MESSAGE value="Topic_23_TC01_TextBox_TextArea" />
     <MESSAGE value="Topic_Handle_Button" />
@@ -288,7 +283,9 @@
     <MESSAGE value="Topic_31_Wait_10_Page_Ready" />
     <MESSAGE value="Topic_01_TestNG" />
     <MESSAGE value="Topic_03_TestNG" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_03_TestNG" />
+    <MESSAGE value="Topic_04_Casting_Type" />
+    <MESSAGE value="Topic_04_Casting_Type_Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_04_Casting_Type_Java" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/selenium_java_testng$Topic_04_Casting_Type.ic" NAME="Topic_04_Casting_Type Coverage Results" MODIFIED="1726150840353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
