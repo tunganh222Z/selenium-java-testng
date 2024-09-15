@@ -14,7 +14,6 @@ public class Topic_09_String_Excersie {
             if (charCourse.charAt(0) <= 'Z' && charCourse.charAt(0) >= 'A'){
                 countUpperCase++;
             }
-
         }
         System.out.println(countUpperCase);
     }
