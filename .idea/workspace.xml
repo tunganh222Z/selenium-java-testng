@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_09_String_Excersie">
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaAccmodFirst/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaAccmodFirst/PC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaAccmodFirst/mainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaAccmodFirst/student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaAccmodSecond/Fish.java" afterDir="false" />
+    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_10_Access_Modifier">
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaOOP/CarOOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaOOP/Java28Exercise/Bai1/QuanLySv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaOOP/Java28Exercise/Bai1/SinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaOOP/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaOOP/StudentManagement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_09_String_Excersie.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_09_String_Excersie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_01_Data_Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/Topic_01_Data_Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/webdriver/Topic_01_Enviroment.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/webdriver/Topic_01_Enviroment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +59,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Person.executor": "Run",
+    "Application.Student.executor": "Run",
     "Application.Topic_02_And_Or.executor": "Run",
     "Application.Topic_03_Compare.executor": "Run",
     "Application.Topic_04_Casting_Type.executor": "Coverage",
@@ -70,6 +72,7 @@
     "TestNG.Topic_00_Template (1).executor": "Run",
     "TestNG.Topic_00_Template (2).executor": "Run",
     "TestNG.Topic_00_Template.executor": "Run",
+    "TestNG.Topic_01_Enviroment.TC_01_Run_On_Firefox.executor": "Run",
     "TestNG.Topic_01_Enviroment.executor": "Run",
     "TestNG.Topic_02_Selenium_Locator (1).executor": "Run",
     "TestNG.Topic_02_Selenium_Locator (2).executor": "Run",
@@ -179,26 +182,13 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.mainClass">
-    <configuration name="Topic_04_Casting_Type" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_04_Casting_Type" />
+  <component name="RunManager" selected="Application.Student">
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaTester.javaOOP.Student" />
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaTester.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic_09_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_09_String" />
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaTester.*" />
+          <option name="PATTERN" value="javaTester.javaOOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,17 +209,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_08_Array.TC_01_Array" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Topic_01_Enviroment.TC_01_Run_On_Firefox" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaTester.*" />
+          <option name="PATTERN" value="webdriver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javaTester" />
-      <option name="MAIN_CLASS_NAME" value="javaTester.Topic_08_Array" />
-      <option name="METHOD_NAME" value="TC_01_Array" />
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_01_Enviroment" />
+      <option name="METHOD_NAME" value="TC_01_Run_On_Firefox" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -255,13 +245,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Topic_17_Action_Part_1.TC_01_Hover_mouse" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_17_Action_Part_1" />
+      <option name="METHOD_NAME" value="TC_01_Hover_mouse" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Student" />
+        <item itemvalue="TestNG.Topic_17_Action_Part_1.TC_01_Hover_mouse" />
+        <item itemvalue="TestNG.Topic_01_Enviroment.TC_01_Run_On_Firefox" />
         <item itemvalue="Application.mainClass" />
         <item itemvalue="TestNG.Topic_09_String_Excersie.TC_01" />
-        <item itemvalue="Application.Topic_09_String" />
-        <item itemvalue="TestNG.Topic_08_Array.TC_01_Array" />
-        <item itemvalue="Application.Topic_04_Casting_Type" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +286,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Topic_28_Handle_CheckBox_RadioBtn" />
     <MESSAGE value="Topic_31_User_Interaction1" />
     <MESSAGE value="Topic_16_User_Interaction_123" />
     <MESSAGE value="Topic_17_Handle_PopUp_01" />
@@ -303,7 +310,8 @@
     <MESSAGE value="Topic_08_Array" />
     <MESSAGE value="Topic_09_String" />
     <MESSAGE value="Topic_09_String_Excersie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_09_String_Excersie" />
+    <MESSAGE value="Topic_10_Access_Modifier" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_10_Access_Modifier" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/selenium_java_testng$Topic_08_Array_TC_01_Array.ic" NAME="Topic_08_Array.TC_01_Array Coverage Results" MODIFIED="1726287706013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">

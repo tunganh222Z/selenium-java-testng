@@ -35,6 +35,8 @@ public class Topic_01_Data_Type {
     //float, double số thực
     // char character
     // boolean true/false
+
+
     // reference type : Tham chiếu
     // Array là kiểu dữ liệu được defined trước, chứa được một tập hợp các kiểu dữ liệu cùng một kiểu
     String[] studentNumber ={"ten 1", noneStatic};

@@ -1,11 +1,15 @@
 package webdriver;
 
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
+
+import java.util.Random;
 
 
 /*
@@ -28,8 +32,11 @@ public class Topic_01_Enviroment {
     @Test
     public void TC_01_Run_On_Firefox() {
         driver = new FirefoxDriver();
-        driver.get("https://www.facebook.com/");
-        driver.quit();
+        driver.get("https://material.playwrightvn.com/01-xpath-register-page.html");
+        driver.findElement(By.cssSelector("span.slider")).click();
+
+
+
     }
 
     @Test
