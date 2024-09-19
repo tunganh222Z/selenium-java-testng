@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_Class_OOP">
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaOOP/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaOOP/IComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaOOP/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaOOP/Testing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaOOP/Topic_01_Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaOOP/Topic_02_Variable_Property.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaOOP/Topic_03_Method.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaOOP/Topic_04_OverLoading.java" afterDir="false" />
+    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_11_Variable_Property_Method_Overloading_AbstractKnowledge">
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaOOP/AbstractAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaOOP/EnvironmentList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaOOP/TestingWthAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/javaOOP/Topic_04_Non_Access_Modifier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/javaOOP/Java28Exercise/Bai1/QuanLySv.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/javaOOP/Java28Exercise/Bai1/SinhVien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaTester/javaOOP/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/javaOOP/Testing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +58,12 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Person.executor": "Run",
     "Application.Student.executor": "Run",
+    "Application.Testing.executor": "Run",
     "Application.Topic_02_And_Or.executor": "Run",
     "Application.Topic_02_Variable_Property_Method.executor": "Run",
     "Application.Topic_03_Compare.executor": "Run",
     "Application.Topic_04_Casting_Type.executor": "Coverage",
+    "Application.Topic_04_Non_Access_Modifier.executor": "Run",
     "Application.Topic_09_String.executor": "Debug",
     "Application.mainClass.executor": "Debug",
     "Application.new_file_to_commit.executor": "Run",
@@ -186,7 +183,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Topic_02_Variable_Property_Method">
+  <component name="RunManager" selected="Application.Topic_04_Non_Access_Modifier">
     <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaTester.javaOOP.Student" />
       <module name="selenium-java-testng" />
@@ -200,8 +197,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_02_Variable_Property" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaTester.javaOOP.Topic_02_Variable_Property" />
+    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaTester.javaOOP.Testing" />
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
@@ -213,12 +210,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaTester.javaAccmodFirst.mainClass" />
+    <configuration name="Topic_04_Non_Access_Modifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaTester.javaOOP.Topic_04_Non_Access_Modifier" />
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaTester.javaAccmodFirst.*" />
+          <option name="PATTERN" value="javaTester.javaOOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Topic_02_Variable_Property_Method" />
+        <item itemvalue="Application.Topic_04_Non_Access_Modifier" />
+        <item itemvalue="Application.Testing" />
         <item itemvalue="Application.Student" />
         <item itemvalue="TestNG.Topic_17_Action_Part_1.TC_01_Hover_mouse" />
         <item itemvalue="TestNG.Topic_01_Enviroment.TC_01_Run_On_Firefox" />
-        <item itemvalue="Application.mainClass" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +282,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Topic_16_User_Interaction_123" />
     <MESSAGE value="Topic_17_Handle_PopUp_01" />
     <MESSAGE value="Topic_18_Handle_PopUp_02" />
     <MESSAGE value="Topic_19_Shadow_DOM" />
@@ -310,7 +306,8 @@
     <MESSAGE value="Topic_09_String_Excersie" />
     <MESSAGE value="Topic_10_Access_Modifier" />
     <MESSAGE value="Topic_Class_OOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_Class_OOP" />
+    <MESSAGE value="Topic_11_Variable_Property_Method_Overloading_AbstractKnowledge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_11_Variable_Property_Method_Overloading_AbstractKnowledge" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/selenium_java_testng$Topic_08_Array_TC_01_Array.ic" NAME="Topic_08_Array.TC_01_Array Coverage Results" MODIFIED="1726287706013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
