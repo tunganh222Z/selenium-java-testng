@@ -28,7 +28,6 @@ public class Topic_06_Getter_Setter {
         } else {
             this.personName = personName;
         }
-
     }
 
     public String getPersonName(){
