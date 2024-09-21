@@ -1,4 +1,4 @@
-package javaTester;
+package javaTester.JavaForTester;
 
 public class Topic_03_Compare {
     int number = 8;

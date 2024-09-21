@@ -1,4 +1,4 @@
-package javaTester;
+package javaTester.JavaForTester;
 
 public class Topic_04_Casting_Type {
     public static void main(String[] args) {

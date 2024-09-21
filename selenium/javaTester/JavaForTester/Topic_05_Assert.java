@@ -1,4 +1,4 @@
-package javaTester;
+package javaTester.JavaForTester;
 
 import graphql.Assert;
 import org.openqa.selenium.By;

@@ -1,4 +1,4 @@
-package javaTester;
+package javaTester.JavaForTester;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;

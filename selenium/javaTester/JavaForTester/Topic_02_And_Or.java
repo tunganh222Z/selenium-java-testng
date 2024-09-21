@@ -1,4 +1,4 @@
-package javaTester;
+package javaTester.JavaForTester;
 
 public class Topic_02_And_Or {
 
