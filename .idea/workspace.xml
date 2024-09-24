@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_14_Overloading_Overriding">
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Inheritance/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Inheritance/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Inheritance/Dragon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Inheritance/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Inheritance/Runable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Inheritance/Swimable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Inheritance/Testing.java" afterDir="false" />
+    <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_14_Extend_Implement">
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Exception/HandleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Exception/TryCatchException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_01_Data_Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/JavaForTester/Topic_01_Data_Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_02_And_Or.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/JavaForTester/Topic_02_And_Or.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_03_Compare.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/JavaForTester/Topic_03_Compare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_04_Casting_Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/JavaForTester/Topic_04_Casting_Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_05_Assert.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/JavaForTester/Topic_05_Assert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_06_Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/JavaForTester/Topic_06_Random.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_07_Switch_case.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/JavaForTester/Topic_07_Switch_case.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_08_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/JavaForTester/Topic_08_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_09_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/JavaForTester/Topic_09_String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Topic_09_String_Excersie.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/JavaForTester/Topic_09_String_Excersie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +54,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.HandleException.executor": "Run",
     "Application.Person.executor": "Run",
     "Application.Student.executor": "Run",
     "Application.Testing.executor": "Run",
@@ -80,6 +66,7 @@
     "Application.Topic_04_Non_Access_Modifier.executor": "Run",
     "Application.Topic_09_String.executor": "Debug",
     "Application.Topice_05_This_Super.executor": "Run",
+    "Application.TryCatchException.executor": "Run",
     "Application.javaTester.Inheritance.Testing.executor": "Run",
     "Application.javaTester.Overrding.Testing.executor": "Run",
     "Application.mainClass.executor": "Debug",
@@ -203,7 +190,20 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.javaTester.Inheritance.Testing">
+  <component name="RunManager" selected="Application.TryCatchException">
+    <configuration name="HandleException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaTester.Exception.HandleException" />
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaTester.Exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Testing_Topic06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaTester.javaOOP.Testing_Topic06" />
       <module name="selenium-java-testng" />
@@ -217,25 +217,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic_04_Non_Access_Modifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaTester.javaOOP.Topic_04_Non_Access_Modifier" />
+    <configuration name="TryCatchException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaTester.Exception.TryCatchException" />
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaTester.Overrding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topice_05_This_Super" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaTester.javaOOP.Topice_05_This_Super" />
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaTester.Overrding.*" />
+          <option name="PATTERN" value="javaTester.Exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,11 +258,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TryCatchException" />
+        <item itemvalue="Application.HandleException" />
         <item itemvalue="Application.javaTester.Inheritance.Testing" />
         <item itemvalue="Application.javaTester.Overrding.Testing" />
         <item itemvalue="Application.Testing_Topic06" />
-        <item itemvalue="Application.Topice_05_This_Super" />
-        <item itemvalue="Application.Topic_04_Non_Access_Modifier" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +279,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Topic_20_Frame_iFrame" />
     <MESSAGE value="Topic_21_Window_Tab" />
     <MESSAGE value="Topic_23_Js_Executor" />
     <MESSAGE value="Topic_25_Wait_01_Element_Status" />
@@ -317,7 +303,8 @@
     <MESSAGE value="Topic_13_This_Super_Constructor" />
     <MESSAGE value="Topic_14_Getter_Setter" />
     <MESSAGE value="Topic_14_Overloading_Overriding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Topic_14_Overloading_Overriding" />
+    <MESSAGE value="Topic_14_Extend_Implement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Topic_14_Extend_Implement" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/selenium_java_testng$Topic_08_Array_TC_01_Array.ic" NAME="Topic_08_Array.TC_01_Array Coverage Results" MODIFIED="1726287706013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
