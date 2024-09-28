@@ -1,5 +1,7 @@
 package javaTester.Exception;
 
+import org.openqa.selenium.WebDriver;
+
 public class TryCatchException {
     public static void main(String[] args) {
         int number = 10;
@@ -38,5 +40,9 @@ public class TryCatchException {
         } catch (Exception e){
             throw new RuntimeException(e);
         }
+    }
+
+    public void sendkeyToAlert(WebDriver driver, String keysToSend) {
+        driver.switchTo().alert().sendKeys(keysToSend);
     }
 }

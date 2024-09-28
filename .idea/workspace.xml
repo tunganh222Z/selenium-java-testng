@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="589ecf7b-42bf-41fe-bf15-cbfd4474ed11" name="Changes" comment="Topic_14_Extend_Implement">
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Exception/HandleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/javaTester/Exception/TryCatchException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/javaTester/Exception/TryCatchException.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/javaTester/Exception/TryCatchException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/tunganh222Z/selenium-java-testng.git&quot;,
-    &quot;accountId&quot;: &quot;2f9cd437-b09b-4bfd-a622-23b37a738654&quot;
+    &quot;accountId&quot;: &quot;7e5ceee0-8228-482b-b149-6c5f88f47d73&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -78,6 +78,7 @@
     "TestNG.Topic_00_Template (2).executor": "Run",
     "TestNG.Topic_00_Template.executor": "Run",
     "TestNG.Topic_01_Enviroment.TC_01_Run_On_Firefox.executor": "Run",
+    "TestNG.Topic_01_Enviroment.TC_02_Run_On_Chrome.executor": "Run",
     "TestNG.Topic_01_Enviroment.executor": "Run",
     "TestNG.Topic_02_Selenium_Locator (1).executor": "Run",
     "TestNG.Topic_02_Selenium_Locator (2).executor": "Run",
@@ -168,7 +169,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.25632185",
-    "settings.editor.selected.configurable": "File.Encoding"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -190,26 +191,13 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TryCatchException">
+  <component name="RunManager" selected="TestNG.Topic_01_Enviroment">
     <configuration name="HandleException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaTester.Exception.HandleException" />
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="javaTester.Exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Testing_Topic06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaTester.javaOOP.Testing_Topic06" />
-      <module name="selenium-java-testng" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaTester.Overrding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,39 +218,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javaTester.Inheritance.Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaTester.Inheritance.Testing" />
+    <configuration name="Topic_01_Enviroment" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaTester.Inheritance.*" />
+          <option name="PATTERN" value="webdriver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_01_Enviroment" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javaTester.Overrding.Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaTester.Overrding.Testing" />
+    <configuration name="Topic_01_Enviroment.TC_01_Run_On_Firefox" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-java-testng" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaTester.Overrding.*" />
+          <option name="PATTERN" value="webdriver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_01_Enviroment" />
+      <option name="METHOD_NAME" value="TC_01_Run_On_Firefox" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic_01_Enviroment.TC_02_Run_On_Chrome" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-java-testng" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webdriver" />
+      <option name="MAIN_CLASS_NAME" value="webdriver.Topic_01_Enviroment" />
+      <option name="METHOD_NAME" value="TC_02_Run_On_Chrome" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Topic_01_Enviroment" />
+        <item itemvalue="TestNG.Topic_01_Enviroment.TC_02_Run_On_Chrome" />
+        <item itemvalue="TestNG.Topic_01_Enviroment.TC_01_Run_On_Firefox" />
         <item itemvalue="Application.TryCatchException" />
         <item itemvalue="Application.HandleException" />
-        <item itemvalue="Application.javaTester.Inheritance.Testing" />
-        <item itemvalue="Application.javaTester.Overrding.Testing" />
-        <item itemvalue="Application.Testing_Topic06" />
       </list>
     </recent_temporary>
   </component>
