@@ -15,6 +15,9 @@ import java.util.Random;
 
 public class Topic_09_Texbox_TextArea_LiveTechPanda {
     WebDriver driver;
+    String firstName = "Tung Anh",middleName = "FC",
+            lastName = "Automation", emailAddress = getEmailRand(),
+            password = "Tunganh123Q!#";
 
     public String getEmailRand (){
         Random emailRand = new Random();
@@ -117,7 +120,7 @@ public class Topic_09_Texbox_TextArea_LiveTechPanda {
         sleepInSecond(2);
 
         // Register
-        String firstName = "Tung Anh",middleName = "Dep Try", lastName = "Khoai To", emailAddress = getEmailRand(), password = "Tunganh123Q!#";
+
 
         driver.findElement(By.xpath("//input [@id='firstname']")).sendKeys(firstName);
         driver.findElement(By.xpath("//input [@id='middlename']")).sendKeys(middleName);
